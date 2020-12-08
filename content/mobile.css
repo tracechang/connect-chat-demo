@@ -1,0 +1,181 @@
+/* modern mobile / small screen */
+
+@media only screen and (max-device-width: 979px) {
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    #header {
+        padding: 10px;
+    }
+    #header .pageTitle {
+        font-size: 22px;
+    }
+    #header .logo-container {
+        height: 44px;
+        float: left;
+    }
+    #logo {
+        width: 80%;
+        height: 80%;
+    }
+    div#container {
+        width: 100%;
+        margin: 0;
+    }
+    .contentBox {
+        margin: 0;
+        margin-bottom: 8px;
+        padding: 24px 12px 12px 12px;
+        border: 2px solid #c2bfbf;
+    }
+    .contentBox h1 {
+        font-size: 16px;
+    }
+    .contentBox h2 {
+        font-size: 14px;
+    }
+    .contentBox h3 {
+        font-size: 12px;
+    }
+    .contentBox h1,
+    .contentBox h2,
+    .contentBox h3 {
+        margin: -24px -12px 12px -12px;
+        margin-bottom: 6px;
+        padding: 4px 6px;
+    }
+    form.tableless label {
+        padding: 3px 0;
+        text-align: left;
+        width: auto;
+        clear: right;
+    }
+    form.tableless span {
+        margin-bottom: 6px;
+        display: block;
+        clear: both;
+    }
+    form.tableless input[type=text],
+    form.tableless textarea {
+        width: 100%;
+        max-width: 524px;
+    }
+    input,
+    select {
+        height: 24px;
+    }
+    input,
+    select,
+    textarea,
+    button {
+        font-size: inherit;
+    }
+    .repLink {
+        font-size: 14px;
+    }
+    #footer {
+        padding: 6px;
+        text-align: center;
+    }
+    #powered-by {
+        margin: 6px;
+    }
+    input[type=button],
+    input[type=reset],
+    input[type=submit],
+    button {
+        background-color: #ff5500;
+        border: 1px solid #5f6062;
+        color: white;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+        display: inline-block;
+        padding: 4px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        background-repeat: repeat-x;
+        /* this non-gradient gradient prevents mobile safari's default button gradient */
+        background-image: -o-linear-gradient(-90deg, #FF7A42 0%, #FF5500 50%, #E64C00 100%);
+        background-image: -moz-linear-gradient(center top, #FF7A42 0%, #FF5500 50%, #E64C00 100%);
+        background-image: -webkit-linear-gradient(-90deg, #FF7A42 0%, #FF5500 50%, #E64C00 100%);
+        background-image: -ms-linear-gradient(-90deg, #FF7A42 0%, #FF5500 50%, #E64C00 100%);
+        background-image: linear-gradient(to bottom, #FF7A42 0%, #FF5500 50%, #E64C00 100%);
+    }
+    input[type=button][disabled],
+    input[type=reset][disabled],
+    input[type=submit][disabled],
+    button[disabled] {
+        color: #ccc;
+        border-color: #ccc;
+        background-color: #fff;
+        background-image: -o-linear-gradient(-90deg, #fff 0%, #fff 100%);
+        background-image: -moz-linear-gradient(center top, #fff 0%, #fff 100%);
+        background-image: -webkit-linear-gradient(-90deg, #fff 0%, #fff 100%);
+        background-image: -ms-linear-gradient(-90deg, #fff 0%, #fff 100%);
+        background-image: linear-gradient(to bottom, #fff 0%, #fff 100%);
+    }
+}
+
+/* just modern phone, portrait */
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    #header .pageTitle {
+        text-align: left;
+    }
+    #header .lang-selection {
+        text-align: left;
+    }
+}
+
+/* Legacy devices */
+
+@media handheld {
+    #logo {
+        width: 100px;
+        height: 20px;
+        text-align: right;
+    }
+    .sectionTitle {
+        text-align: left;
+    }
+    .sectionTitle span {
+        float: none;
+        display: inline;
+    }
+    form.tableless label,
+    form.tableless span {
+        text-align: left;
+    }
+    .accessible {
+        display: none !important;
+    }
+}
+
+ul.section-start-buttons {
+    list-style-type: none;
+}
+
+.session-start-buttons {
+    padding: 0;
+    margin: 15px 0;
+}
+
+.session-start-buttons li {
+    padding: 0;
+    margin: 0 0 16px;
+}
+
+.session-start-buttons button {
+    font-size: 21px;
+    display: block;
+    padding: 8px;
+    margin: 16px auto;
+    width: 160px;
+}

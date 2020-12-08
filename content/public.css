@@ -1,0 +1,203 @@
+body {
+    position: relative;
+}
+
+#header .pageTitle {
+    text-align: left;
+    color: black;
+    line-height: 1.5em;
+}
+
+#header .pageTitleContainer {
+    float: left;
+}
+
+#header .lang-selection {
+    text-align: left;
+}
+
+#header.header-wrapper .lang-selection>* {
+    float: left;
+}
+
+#header.header-wrapper .lang-selection>*:first-child {
+    margin-right: 6px;
+}
+
+#header.header-wrapper>div {
+    display: inline-block;
+}
+
+#header.header-wrapper .logo {
+    float: right;
+    text-align: right;
+}
+
+#header.header-wrapper .logo img {
+    max-width: 250px;
+    max-height: 64px;
+}
+
+#header .lang-selection svg {
+    width: 20px;
+    height: 20px;
+}
+
+.sectionTitle {
+    text-align: right;
+    line-height: 1.4em;
+}
+
+.sectionTitle span {
+    float: left;
+    display: block;
+}
+
+.sectionTitle a[rel="help"] img {
+    vertical-align: middle;
+}
+
+.ambushContentBox {
+    color: black;
+    background-color: #bad8eb;
+}
+
+.ambushContentBox .sectionTitle {
+    text-align: left;
+}
+
+ul.scheduleMessageList {
+    list-style-type: none;
+}
+
+ul.ambushMessageList {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+ul.ambushMessageList>li {
+    margin-bottom: 15px;
+}
+
+ul.ambushMessageList>li:last-of-type {
+    margin-bottom: 0;
+}
+
+#powered-by {
+    font-size: .9em;
+    padding: 0.5em 1em;
+}
+
+/* Recording Viewer */
+
+.recordingViewer {
+    width: 530px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+/* Rep Invite Join / Download Instructions */
+
+#repInviteChoices {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+#repInviteChoices.chrome-os {
+    justify-content: center;
+}
+
+#repInviteChoices h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    text-align: center;
+    max-width: 100%;
+}
+
+#repInviteChoices h4 a {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: inherit;
+    max-width: 100%;
+}
+
+#repInviteChoices ul {
+    max-width: 100%;
+}
+
+#repInviteChoices>div:first-of-type h4 img {
+    margin-right: 5px;
+}
+
+#repInviteChoices .or {
+    font-size: large;
+    align-self: center;
+}
+
+#exitSurveyForm .group-td-vert,
+#exitSurveyForm .group-td-vert.answers,
+#exitSurveyForm .group-td-vert.answers .choice {
+    display: block;
+}
+
+.params {
+    display: none;
+}
+
+/* For elements that need to be hidden when the page first loads.*/
+
+.hidden {
+    display: none;
+}
+
+#publicFileStore #header>span {
+    height: 41px;
+    float: left;
+}
+
+#publicFileStore #header .pageTitle {
+    text-align: right;
+    line-height: 60px;
+}
+
+#publicFileStore #footer>div {
+    float: right;
+}
+
+#exitSurveyForm .wrapper {
+    margin-left: 1em;
+}
+
+#exitSurveyForm .submitButton {
+    margin-top: 1em;
+}
+
+#exitSurveyForm .questionDiv {
+    margin-top: 1em;
+}
+
+#jumpAuthRequestForm .submit {
+    margin: 4px;
+}
+
+#jumpAuthRequestForm .request-text {
+    white-space: pre-wrap;
+}
+
+#jumpAuthRequestForm>table {
+    width: 100%;
+}
+
+#jumpAuthRequestForm #comments {
+    width: 98%;
+}
+
+#chatTranscriptBox hr {
+    width: 85%;
+}
